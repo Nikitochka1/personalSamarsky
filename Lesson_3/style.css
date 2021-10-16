@@ -1,0 +1,12 @@
+td {
+border: 1px solid rgb(10, 221, 175) ;
+} 
+table {background: rgb(8,174,195);
+    background: linear-gradient(90deg, rgba(8,174,195,0.727328431372549) 30%, rgba(45,69,230,0.5760679271708684) 55%, rgba(0,212,255,1) 100%);}
+
+    img {
+        width: 30px;
+         height: 30px;
+
+
+    }
