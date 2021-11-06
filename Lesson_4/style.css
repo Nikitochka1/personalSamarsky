@@ -1,0 +1,71 @@
+td {
+    border: 1px solid black;
+}
+
+.shapka {
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+}
+
+.ddd {
+    text-align: center;
+}
+
+table li {
+    list-style-type: none;
+}
+
+table {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 0.850577731092437) 100%);
+}
+
+.d {
+    color: blue;
+}
+
+.f {
+    color: brown;
+}
+
+.a {
+    color: cadetblue;
+}
+
+.b {
+    color: chocolate;
+}
+
+.e {
+    color: darkblue;
+}
+
+.box {
+    background-color: rgb(252, 60, 2);
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+   .box .box2 {
+    background-color: rgb(233, 174, 13);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .table {
+width: 100%;
+height:100% ;
+   }
+   .button {
+       width:auto;
+       height:auto;
+   }
+   .таб {
+       height: 100px;
+       width: 100px;
+   }
