@@ -1,0 +1,41 @@
+.card {
+border:solid;
+width: 230px;
+min-height:130px;
+border-radius:  20px; ;
+padding: 20px;
+display: inline-block;
+margin: 20px;
+-webkit-box-shadow: 17px 4px 36px 14px rgba(14, 225, 113, 0.2);
+-moz-box-shadow: 17px 4px 36px 14px rgba(14, 225, 113, 0.2);
+box-shadow: 17px 4px 36px 14px rgba(14, 225, 113, 0.2);
+
+}
+.button {
+border-radius: 10%;
+border: solid 1px;
+width: 15%;
+margin-left: 10px;
+display: inline;
+padding: 3px;
+}
+.lesson {
+padding: 40px;
+display: inline;
+color: blue;
+}
+a {
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    margin: 100px;
+}
+.text {
+    text-align: center;
+}
+.text2 {
+    margin: 150px;
+}

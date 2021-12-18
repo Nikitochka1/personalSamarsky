@@ -1,0 +1,142 @@
+.link1:link {
+    color: brown;
+    text-decoration: initial;
+}
+
+.link:visited {
+    color: lightseagreen;
+    text-decoration: initial;
+}
+
+.link2:hover {
+    color: lime;
+    text-decoration: initial;
+    transform: rotate('3deg');
+    display: block;
+}
+
+input:focus {
+    border-color: magenta;
+    outline: none;
+}
+
+.link3:hover {
+    font-size: 20px;
+}
+
+.link3:visited {
+    color: white;
+}
+
+.sss {
+    height: 70px;
+}
+
+.sss:hover {
+    width: 200px;
+    height: 2000px;
+    transition: 10s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:first-child {
+    color: lightseagreen;
+}
+
+ul li:nth-child(odd) {
+    color: mediumvioletred;
+    font-weight: normal;
+}
+
+ul li:nth-child(2)::before {
+    content: '';
+    background-image: url('./unnamed.png');
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-size: contain;
+
+}
+
+ul li:nth-child(3)::before {
+    content: '';
+    background-image: url('./unnamed.png');
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-size: contain;
+}
+
+ul li:nth-child(4)::before {
+    content: '';
+    background-image: url(./unnamed.png);
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    color: black;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #F9F6F5;
+}
+
+.navigation {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+
+}
+
+.container-flex {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+   justify-content: space-between;
+   
+
+}
+.mt-45 {
+    margin-top: 45px;
+
+}
+.img {
+    width: 18px;
+    height: 16px;
+
+}
+ .icons {
+    display:flex;
+    justify-content: space-between;
+    column-gap: 30px;
+ }
+ .text { 
+     width: 620px;
+     height: 140px;
+     font-size: 50px;
+ }
+   
+
